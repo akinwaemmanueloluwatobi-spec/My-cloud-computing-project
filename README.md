@@ -1,24 +1,24 @@
  My Cloud Computing Project
 
-Project Overview
+Project Overview:
 This project was created as part of my cloud computing training. It demonstrates my understanding of cloud technologies and website deployment.
 
- Technologies Used
+ Technologies Used:
 - HTML
 - CSS
 - JavaScript
 - Amazon Web Services (AWS) 
 
- Project Features
+ Project Features:
 - Responsive website design
 - Organized website files and assets
 - Cloud hosting and deployment
 
-Deployment
+Deployment:
 The project is hosted on AWS S3
 
- Author
+ Author:
 Akinwa Emmanuel Oluwatobi
 
- Conclusion
+ Conclusion:
 This project helped me develop practical skills in web development, cloud storage, and deployment.
