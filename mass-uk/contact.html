@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — MASS Movement UK</title>
+  
+  <meta name="description" content="Get in touch with MASS Movement UK. Reach out for event inquiries, volunteer opportunities, church partnerships, or general information.">
+  <meta name="keywords" content="Contact MASS UK, MASS Movement email, UK Christian network contact, Christian movement inquiries">
+  <meta property="og:title" content="Let's Connect — MASS Movement UK">
+  <meta property="og:description" content="We'd love to hear from you. Get in touch with MASS Movement UK today.">
+  <meta property="og:image" content="assets/images/mass-hero.jpg">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-brand" aria-label="MASS Movement UK Homepage">
+        <div class="logo-text">MASS <span>UK</span></div>
+        <div class="logo-tagline">MASS MOVEMENT UK</div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="beliefs.html" class="nav-link">What We Believe</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="community.html" class="nav-link">Community</a>
+        <a href="support.html" class="nav-link">Support Us</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="community.html" class="btn btn-primary btn-sm">JOIN THE MOVEMENT</a>
+        <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-backdrop"></div>
+  <aside class="mobile-nav" aria-label="Mobile Navigation">
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="beliefs.html" class="mobile-nav-link">What We Believe</a>
+      <a href="events.html" class="mobile-nav-link">Events</a>
+      <a href="community.html" class="mobile-nav-link">Community</a>
+      <a href="support.html" class="mobile-nav-link">Support Us</a>
+      <a href="contact.html" class="mobile-nav-link active">Contact</a>
+    </div>
+    <div style="margin-top: 2rem;">
+      <a href="community.html" class="btn btn-primary" style="width: 100%;">JOIN THE MOVEMENT</a>
+    </div>
+  </aside>
+
+  <!-- PAGE HERO -->
+  <section class="section section-dark" style="padding-top: calc(var(--header-height) + 4rem); padding-bottom: 3rem;">
+    <div class="container" style="text-align: center;">
+      <div class="tagline-badge">GET IN TOUCH</div>
+      <h1 class="section-title" style="font-size: clamp(2.5rem, 5vw, 4rem);">Let's Connect.</h1>
+      <p class="section-subtitle" style="margin: 0 auto;">
+        Have a question about MASS Movement UK, upcoming events, or how to get involved? Send us a message below.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM & INFO SECTION -->
+  <section class="section section-surface">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Form Column -->
+        <div class="reveal">
+          <h2 class="section-title" style="font-size: 1.8rem;">Send Us a Message</h2>
+          <p style="color: var(--text-dark-secondary); margin-bottom: 2rem; font-size: 0.95rem;">
+            Fill in the form below. For static deployment, this form is designed for seamless integration with Formspree, Netlify Forms, EmailJS, or AWS Lambda.
+          </p>
+
+          <form data-contact-form>
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Full Name *</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="e.g. Samuel Bennett" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Email Address *</label>
+              <input type="email" id="contact-email" class="form-control" placeholder="e.g. samuel@example.co.uk" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-phone" class="form-label">Phone Number (Optional)</label>
+              <input type="tel" id="contact-phone" class="form-control" placeholder="e.g. +44 7123 456789">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject" class="form-label">Subject *</label>
+              <select id="contact-subject" class="form-control" required>
+                <option value="" disabled selected>Select a subject...</option>
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Events & Latter Rain">Events & Gatherings</option>
+                <option value="Volunteering">Volunteering & Serving</option>
+                <option value="Church Partnership">Church / Leader Partnership</option>
+                <option value="Media & Press">Media & Press</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message *</label>
+              <textarea id="contact-message" class="form-control" placeholder="How can we help or connect with you?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">SEND MESSAGE</button>
+          </form>
+        </div>
+
+        <!-- Contact Info & Placeholders Column -->
+        <div class="reveal">
+          <div class="intro-box" style="height: 100%;">
+            <span class="section-label">Official Details</span>
+            <h2 class="section-title" style="font-size: 1.8rem; margin-bottom: 1.5rem;">Contact Information</h2>
+            
+            <p style="color: var(--text-dark-secondary); margin-bottom: 2.5rem; line-height: 1.7;">
+              Official email, telephone numbers, and headquarters office address will be displayed below as provided by MASS Movement UK.
+            </p>
+
+            <div style="display: flex; flex-direction: column; gap: 2rem;">
+              
+              <!-- Email Item -->
+              <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <div class="value-icon-wrapper" style="width: 44px; height: 44px; margin-bottom: 0;">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size: 1rem; color: #ffffff; margin-bottom: 4px;">Email</h4>
+                  <div class="placeholder-tag">[OFFICIAL EMAIL]</div>
+                </div>
+              </div>
+
+              <!-- Phone Item -->
+              <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <div class="value-icon-wrapper" style="width: 44px; height: 44px; margin-bottom: 0;">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size: 1rem; color: #ffffff; margin-bottom: 4px;">Telephone</h4>
+                  <div class="placeholder-tag">[PHONE NUMBER]</div>
+                </div>
+              </div>
+
+              <!-- Address Item -->
+              <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <div class="value-icon-wrapper" style="width: 44px; height: 44px; margin-bottom: 0;">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size: 1rem; color: #ffffff; margin-bottom: 4px;">Office Address</h4>
+                  <div class="placeholder-tag">[UK ADDRESS / OFFICE ADDRESS]</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM SUBMIT SIMULATION MODAL -->
+  <div class="form-response-modal" id="contact-modal">
+    <div class="modal-card">
+      <div class="modal-icon">
+        <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
+        </svg>
+      </div>
+      <h3 style="font-size: 1.6rem; color: #ffffff; margin-bottom: 1rem;">Form Submission Ready</h3>
+      <p style="color: var(--text-dark-secondary); margin-bottom: 1.5rem; line-height: 1.6;">
+        Thank you. Your message form is ready to be connected to the MASS UK contact system.
+      </p>
+      <div class="placeholder-tag" style="margin-bottom: 2rem;">
+        [STATIC READY — CONNECT TO FORMSPREE / NETLIFY / EMAILJS / AWS API GATEWAY]
+      </div>
+      <div>
+        <button class="btn btn-primary" data-close-modal>CLOSE WINDOW</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-text">MASS <span>UK</span></div>
+          <div class="footer-tagline">“Jesus. To Every Generation. To Every Nation.”</div>
+          <p class="footer-desc">
+            A national interdenominational Christian movement in the United Kingdom — united around one name, sent to every nation.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="beliefs.html">What We Believe</a>
+            <a href="events.html">Events</a>
+            <a href="community.html">Community</a>
+            <a href="support.html">Support Us</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Gatherings</h4>
+          <div class="footer-links">
+            <a href="events.html">LATTER RAIN 2026</a>
+            <a href="events.html">National Gatherings</a>
+            <a href="community.html">Youth & Worship</a>
+            <a href="community.html">Prayer Hubs</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Connect & Social</h4>
+          <div class="footer-links">
+            <a href="[PLACEHOLDER — INSTAGRAM]" onclick="alert('Social link placeholder: [PLACEHOLDER — INSTAGRAM]'); return false;">Instagram <span class="placeholder-tag">[PLACEHOLDER]</span></a>
+            <a href="[PLACEHOLDER — FACEBOOK]" onclick="alert('Social link placeholder: [PLACEHOLDER — FACEBOOK]'); return false;">Facebook <span class="placeholder-tag">[PLACEHOLDER]</span></a>
+            <a href="[PLACEHOLDER — YOUTUBE]" onclick="alert('Social link placeholder: [PLACEHOLDER — YOUTUBE]'); return false;">YouTube <span class="placeholder-tag">[PLACEHOLDER]</span></a>
+            <a href="contact.html">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="legal-notice">
+          MASS Movement UK. Charity registration application in progress with the Charity Commission for England and Wales.
+        </div>
+        <div>
+          © 2026 MASS Movement UK. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
